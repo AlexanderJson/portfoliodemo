@@ -1,0 +1,14 @@
+  .card {
+    background: var(--bg-card);
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    transition: transform 0.2s;
+ 
+  }
+  .card:hover { transform: translateY(-4px); }
+  .card-img { width: 100%; height: 160px; background: var(--text-contrast); object-fit: cover; }
+  .card-body { padding: 1.25rem; }
+  .card-title { font-weight: 600; font-size: 1.1rem; margin-bottom: 0.5rem; }
+  .card-text { color: var(--text-muted); font-size: 0.9rem; line-height: 1.5; margin-bottom: 1rem; }
