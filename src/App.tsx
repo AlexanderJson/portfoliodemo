@@ -18,7 +18,7 @@ export default function App() {
 
   const MOCK_DATA: SceneData[] = [
     { title: "Alexander Jansson", type: "Portfolio", desc: null, EngineClass: IntroAnimation },
-    { title: "Vault", type: "Password Manager", tech: ["C#", "React", "SQL"], github: "#", desc: "A secure REST API built to safely generate and store user passwords, and transmit sensitive keys via one-time encrypted messages. Powered by AES-256-GCM and AAD tamper protection.", EngineClass: VaultAnimation },
+    { title: "Vault", type: "Password Manager", tech: ["C#", "React", "SQL"], github: "#", desc: "A secure REST API built to safely generate and store user passwords, and transmit sensitive keys via one-time encrypted messages. Encrypted with AES-256-GCM and AAD tamper protection.", EngineClass: VaultAnimation },
     { title: "Reeltalk", type: "Project planner for filmmakers", tech: ["Java","Spring", "Kotlin", "React", "SQL"], github: "#", desc: "A project management suite for film production. Key features include role-based access control, dynamic scheduling, and automated availability tracking for crew members.", EngineClass: TimelineAnimation },
     { title: "Hyperfocus", type: "Noise Reduction AI", tech: ["Python"], github: "#", desc: "Isolates and reduces any sound using machine-learning. By training the AI on a sound, it can remove that sound from any audio.", EngineClass: SignalAnimation },
     { title: "Contact me", type: "alexanderjsn@live.com", isContact: true, desc: "Ge mig praktik.", EngineClass: TerminalAnimation }
